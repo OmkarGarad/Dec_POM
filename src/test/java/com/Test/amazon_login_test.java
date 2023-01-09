@@ -17,6 +17,7 @@ public class amazon_login_test {
 	@Test
  public void amzon_launch() {
 	driver= TestBase.amazon_lauch_url();
+	System.out.println("launch");
 	
  }
 
