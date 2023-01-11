@@ -1,0 +1,4 @@
+data_provider\configuration_file.class
+com\Test\TestBase.class
+com\Test\amazon_login_test.class
+com\Test\jbk_login_test.class
