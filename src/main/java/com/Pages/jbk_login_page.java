@@ -21,18 +21,35 @@ public class jbk_login_page {
 	@FindBy(id="email") 
 	private WebElement username;
 	
+	@FindBy(id="password") 
+	private WebElement password;
+	
+	@FindBy(xpath="//button") 
+	private WebElement button;
+	
 	public void uname(String text) {
 		username.sendKeys(text);
+		//PageFactory.initElements(lpdriver, this);
+	}
+	
+	public void pass(String text) {
+		password.sendKeys(text);
+		//PageFactory.initElements(lpdriver, this);
+	}
+	
+	public void button() {
+		button.click();;
 		//PageFactory.initElements(lpdriver, this);
 	}
 	
 	
 	public void valid_credentials() {
 		uname("kiran@gmail.com");
+		pass("123456");
+		button();
 	}
 	
-	@FindBys(@FindBy(xpath = "id"))
-	List<WebElement> id;
+	
 	
 	
 	

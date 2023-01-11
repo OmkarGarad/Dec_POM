@@ -5,11 +5,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import data_provider.configuration_file;
 
+
+
+
+
 public class TestBase {
 	
 	static WebDriver  driver;
 	
-	static configuration_file cf=new configuration_file() ;
+	static configuration_file cf = new configuration_file();
+	
+	
 	
 	public static WebDriver jbk_lauch_url() {
 		
