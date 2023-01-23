@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-11T12:02:07 IST" name="Suite" finished-at="2023-01-11T12:02:16 IST" duration-ms="9294">
+  <suite started-at="2023-01-17T16:20:40 IST" name="Default suite" finished-at="2023-01-17T16:20:50 IST" duration-ms="10709">
     <groups>
     </groups>
-    <test started-at="2023-01-11T12:02:07 IST" name="Test" finished-at="2023-01-11T12:02:16 IST" duration-ms="9294">
+    <test started-at="2023-01-17T16:20:40 IST" name="Default test" finished-at="2023-01-17T16:20:50 IST" duration-ms="10709">
       <class name="com.Test.jbk_login_test">
-        <test-method signature="jbk_launch()[pri:0, instance:com.Test.jbk_login_test@2b91004a]" started-at="2023-01-11T12:02:12 IST" name="jbk_launch" finished-at="2023-01-11T12:02:16 IST" duration-ms="4113" status="PASS">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.Test.jbk_login_test@60bd273d]" started-at="2023-01-17T16:20:40 IST" name="startTest" finished-at="2023-01-17T16:20:40 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="jbk_launch()[pri:0, instance:com.Test.jbk_login_test@60bd273d]" started-at="2023-01-17T16:20:40 IST" name="jbk_launch" finished-at="2023-01-17T16:20:50 IST" duration-ms="9656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jbk_launch -->
-      </class> <!-- com.Test.jbk_login_test -->
-      <class name="com.Test.amazon_login_test">
-        <test-method signature="amzon_launch()[pri:0, instance:com.Test.amazon_login_test@32b260fa]" started-at="2023-01-11T12:02:07 IST" name="amzon_launch" finished-at="2023-01-11T12:02:12 IST" duration-ms="5135" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Test.jbk_login_test@60bd273d]" started-at="2023-01-17T16:20:50 IST" name="endTest" finished-at="2023-01-17T16:20:50 IST" duration-ms="449" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amzon_launch -->
-      </class> <!-- com.Test.amazon_login_test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Test.jbk_login_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
