@@ -16,22 +16,15 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+import data_provider.screenshot;
+
 public class extent_report {
 	
 	WebDriver driver;
 	static ExtentTest test;
 	static ExtentReports report;
+
 	
-	private String capture(WebDriver driver) throws Exception {
-		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File Dest = new File("src/../ErrImages/" + System.currentTimeMillis()
-		+ ".png");
-		String errflpath = Dest.getAbsolutePath();
-		FileUtils.copyFile(scrFile, Dest);
-		
-		//return null;
-		return errflpath;
-	}
 	
 	
 	@BeforeClass
@@ -49,12 +42,13 @@ public class extent_report {
 	if(driver.getTitle().equals("Google"))
 	{
 	test.log(LogStatus.PASS, "Navigated to the specified URL");
+	//test.log(LogStatus.FAIL,test.addScreenCapture(screenshot.capture(driver))+ "Test Failed");
 	}
 	else
 		
 	{
 	test.log(LogStatus.FAIL, "Test Failed");
-	test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver))+ "Test Failed");
+	test.log(LogStatus.FAIL,test.addScreenCapture(screenshot.capture(driver,"extentReportsDemo"))+ "Test Failed");
 	
 	}
 	}

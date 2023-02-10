@@ -5,6 +5,8 @@ import org.testng.annotations.Test;
 
 import com.Pages.amazon_login_page;
 
+import data_provider.TestBase;
+
 public class amazon_login_test {
 	
 	WebDriver driver;

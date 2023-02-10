@@ -18,6 +18,8 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+import data_provider.TestBase;
+
 
 public class jbk_login_test {
 	
@@ -27,9 +29,9 @@ public class jbk_login_test {
     static ExtentReports report;
     
     
-    private String capture(WebDriver driver) throws Exception {
+    private String capture(WebDriver driver,String name) throws Exception {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File Dest = new File("src/../ErrImages/" + System.currentTimeMillis()
+		File Dest = new File("src/../ErrImages/" + name
 		+ ".png");
 		String errflpath = Dest.getAbsolutePath();
 		FileUtils.copyFile(scrFile, Dest);
@@ -60,7 +62,7 @@ public class jbk_login_test {
 		
 	{
 	test.log(LogStatus.FAIL, "Test Failed");
-	test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver))+ "Test Failed");
+	test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver,"jbk_launch"))+ "Test Failed");
 	}
 		
 	}

@@ -1,9 +1,7 @@
-package com.Test;
+package data_provider;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import data_provider.configuration_file;
 
 
 
