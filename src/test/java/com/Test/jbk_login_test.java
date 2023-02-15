@@ -7,8 +7,10 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -23,7 +25,7 @@ import data_provider.TestBase;
 
 public class jbk_login_test {
 	
-	WebDriver driver;	
+	static WebDriver driver;	
     jbk_login_page lp = null;
     static ExtentTest test;
     static ExtentReports report;
@@ -40,21 +42,22 @@ public class jbk_login_test {
 		return errflpath;
 	}
     
-    @BeforeClass
+    @BeforeMethod
     public static void startTest()
     {
-    report = new ExtentReports(System.getProperty("user.dir")+"ExtentReportResultsJBK.html",true);
+    report = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResultsJBK.html",true);
     test = report.startTest("ExtentDemo01");
+	driver=	TestBase.jbk_lauch_url();
     }
     
     
 	@Test	
 	public void jbk_launch() throws Exception {	
-	driver=	TestBase.jbk_lauch_url();
+
 	lp = new jbk_login_page(driver);
 	lp.valid_credentials();
 	
-	if(driver.getTitle().equals("JavaByKiran | Dashboar"))
+	if(driver.getTitle().equals("JavaByKiran | Dashboard"))
 	{
 	test.log(LogStatus.PASS, "Navigated to the specified URL");
 	}
@@ -68,7 +71,7 @@ public class jbk_login_test {
 	}
 	
 	
-	@AfterClass
+	@AfterMethod
 	
 	public static void endTest()
 	{
