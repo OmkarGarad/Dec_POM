@@ -1,4 +1,6 @@
+data_provider\TestBase.class
+com\Test\extent_report.class
 data_provider\configuration_file.class
-com\Test\TestBase.class
+data_provider\screenshot.class
 com\Test\amazon_login_test.class
 com\Test\jbk_login_test.class

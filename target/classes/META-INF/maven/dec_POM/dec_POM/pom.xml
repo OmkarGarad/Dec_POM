@@ -32,10 +32,6 @@
 	</build>
   
   
-  
-  
-  
-  
   <dependencies>
 	  
 	  
@@ -57,12 +53,19 @@
     <version>7.4.0</version>
     <scope>test</scope>
 </dependency>
+
+
+<dependency>
+    <groupId>org.apache.directory.studio</groupId>
+    <artifactId>org.apache.commons.io</artifactId>
+    <version>2.4</version>
+</dependency>
  
-  <dependency>
+  <!--<dependency>
   	<groupId>com.BDD_JAN</groupId>
   	<artifactId>com.BDD_JAN</artifactId>
   	<version>0.0.1-SNAPSHOT</version>
-  </dependency>
+  </dependency>-->
   </dependencies>
   
   

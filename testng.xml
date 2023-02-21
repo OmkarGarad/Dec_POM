@@ -14,4 +14,10 @@
     </classes>
   </test> <!-- Test -->
   
+  <test thread-count="5" name="Test03">
+    <classes>
+      <class name="com.Test.extent_report"/>
+    </classes>
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->

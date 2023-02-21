@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-16T15:29:01 IST" name="Suite" finished-at="2023-01-16T15:29:14 IST" duration-ms="12794">
+  <suite started-at="2023-02-21T17:26:18 IST" name="Suite" finished-at="2023-02-21T17:26:37 IST" duration-ms="19342">
     <groups>
     </groups>
-    <test started-at="2023-01-16T15:29:01 IST" name="Test01" finished-at="2023-01-16T15:29:08 IST" duration-ms="7260">
+    <test started-at="2023-02-21T17:26:18 IST" name="Test01" finished-at="2023-02-21T17:26:30 IST" duration-ms="12212">
       <class name="com.Test.amazon_login_test">
-        <test-method signature="amzon_launch()[pri:0, instance:com.Test.amazon_login_test@1e6454ec]" started-at="2023-01-16T15:29:01 IST" name="amzon_launch" finished-at="2023-01-16T15:29:08 IST" duration-ms="7206" status="PASS">
+        <test-method signature="amzon_launch()[pri:0, instance:com.Test.amazon_login_test@5ace1ed4]" started-at="2023-02-21T17:26:18 IST" name="amzon_launch" finished-at="2023-02-21T17:26:30 IST" duration-ms="12066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amzon_launch -->
       </class> <!-- com.Test.amazon_login_test -->
     </test> <!-- Test01 -->
-    <test started-at="2023-01-16T15:29:08 IST" name="Test02" finished-at="2023-01-16T15:29:14 IST" duration-ms="5437">
+    <test started-at="2023-02-21T17:26:30 IST" name="Test02" finished-at="2023-02-21T17:26:37 IST" duration-ms="7070">
       <class name="com.Test.jbk_login_test">
-        <test-method is-config="true" signature="startTest()[pri:0, instance:com.Test.jbk_login_test@18d87d80]" started-at="2023-01-16T15:29:08 IST" name="startTest" finished-at="2023-01-16T15:29:08 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.Test.jbk_login_test@6cd28fa7]" started-at="2023-02-21T17:26:30 IST" name="startTest" finished-at="2023-02-21T17:26:35 IST" duration-ms="4680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="jbk_launch()[pri:0, instance:com.Test.jbk_login_test@18d87d80]" started-at="2023-01-16T15:29:08 IST" name="jbk_launch" finished-at="2023-01-16T15:29:13 IST" duration-ms="4340" status="PASS">
+        <test-method signature="jbk_launch()[pri:0, instance:com.Test.jbk_login_test@6cd28fa7]" started-at="2023-02-21T17:26:35 IST" name="jbk_launch" finished-at="2023-02-21T17:26:37 IST" duration-ms="1771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jbk_launch -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Test.jbk_login_test@18d87d80]" started-at="2023-01-16T15:29:13 IST" name="endTest" finished-at="2023-01-16T15:29:14 IST" duration-ms="841" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Test.jbk_login_test@6cd28fa7]" started-at="2023-02-21T17:26:37 IST" name="endTest" finished-at="2023-02-21T17:26:37 IST" duration-ms="614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
