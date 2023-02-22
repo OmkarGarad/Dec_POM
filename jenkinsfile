@@ -1,4 +1,5 @@
 pipeline {
+<<<<<<< Updated upstream
     agent any
 
     stages {
@@ -13,3 +14,17 @@ pipeline {
         }
     
 
+=======
+  agent any
+  tools {
+      jdk "JAVA_HOME"
+  }
+  stages {
+    stage('Run functional test cases') {
+      steps {
+       bat "mvn -f dec_POM/pom.xml clean test install"
+      }
+    }
+  }
+}
+>>>>>>> Stashed changes
