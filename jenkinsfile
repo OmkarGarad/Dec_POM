@@ -1,20 +1,4 @@
 pipeline {
-<<<<<<< Updated upstream
-    agent any
-
-    stages {
-        stage('Test') {
-            steps {
-                echo 'Building..'
-                echo "${branch}"
-            }
-        }
-   
-            }
-        }
-    
-
-=======
   agent any
   tools {
       jdk "JAVA_HOME"
@@ -27,4 +11,3 @@ pipeline {
     }
   }
 }
->>>>>>> Stashed changes
