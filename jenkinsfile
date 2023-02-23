@@ -1,8 +1,5 @@
 pipeline {
-<<<<<<< HEAD
-=======
 
->>>>>>> db63b79baa7518da24fd8d677dbdc14458f4798a
   agent any
 
   stages {
@@ -13,7 +10,4 @@ pipeline {
     }
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> db63b79baa7518da24fd8d677dbdc14458f4798a
