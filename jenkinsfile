@@ -1,13 +1,19 @@
 pipeline {
+<<<<<<< HEAD
+=======
+
+>>>>>>> db63b79baa7518da24fd8d677dbdc14458f4798a
   agent any
-  tools {
-      jdk "JAVA_HOME"
-  }
+
   stages {
     stage('Run functional test cases') {
       steps {
-       bat "mvn -f dec_POM/pom.xml clean test install"
+       bat "mvn dec_POM/pom.xml clean test install"
       }
     }
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> db63b79baa7518da24fd8d677dbdc14458f4798a
