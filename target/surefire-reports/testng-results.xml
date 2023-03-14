@@ -2,21 +2,21 @@
 <testng-results ignored="0" total="3" passed="0" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-14T11:34:23 IST" name="Suite" finished-at="2023-03-14T11:34:32 IST" duration-ms="8602">
+  <suite started-at="2023-03-14T12:02:08 IST" name="Suite" finished-at="2023-03-14T12:02:17 IST" duration-ms="8839">
     <groups>
     </groups>
-    <test started-at="2023-03-14T11:34:23 IST" name="Test01" finished-at="2023-03-14T11:34:28 IST" duration-ms="4414">
+    <test started-at="2023-03-14T12:02:08 IST" name="Test01" finished-at="2023-03-14T12:02:12 IST" duration-ms="4050">
       <class name="com.Test.amazon_login_test">
-        <test-method signature="amzon_launch()[pri:0, instance:com.Test.amazon_login_test@5ace1ed4]" started-at="2023-03-14T11:34:23 IST" name="amzon_launch" finished-at="2023-03-14T11:34:27 IST" duration-ms="4353" status="FAIL">
+        <test-method signature="amzon_launch()[pri:0, instance:com.Test.amazon_login_test@5ace1ed4]" started-at="2023-03-14T12:02:08 IST" name="amzon_launch" finished-at="2023-03-14T12:02:12 IST" duration-ms="3977" status="FAIL">
           <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
             <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:53113/devtools/browser/56729f60-c717-4c99-b396-10ef36f17c10
+              <![CDATA[Unable to establish websocket connection to http://localhost:60582/devtools/browser/02a62530-b6fa-41f3-8f60-749896b236f6
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:53113/devtools/browser/56729f60-c717-4c99-b396-10ef36f17c10
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60582/devtools/browser/02a62530-b6fa-41f3-8f60-749896b236f6
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver
@@ -71,18 +71,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
         </test-method> <!-- amzon_launch -->
       </class> <!-- com.Test.amazon_login_test -->
     </test> <!-- Test01 -->
-    <test started-at="2023-03-14T11:34:28 IST" name="Test02" finished-at="2023-03-14T11:34:30 IST" duration-ms="1935">
+    <test started-at="2023-03-14T12:02:12 IST" name="Test02" finished-at="2023-03-14T12:02:14 IST" duration-ms="1983">
       <class name="com.Test.jbk_login_test">
-        <test-method is-config="true" signature="startTest()[pri:0, instance:com.Test.jbk_login_test@6cd28fa7]" started-at="2023-03-14T11:34:28 IST" name="startTest" finished-at="2023-03-14T11:34:29 IST" duration-ms="1922" status="FAIL">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.Test.jbk_login_test@6cd28fa7]" started-at="2023-03-14T12:02:12 IST" name="startTest" finished-at="2023-03-14T12:02:14 IST" duration-ms="1966" status="FAIL">
           <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
             <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:53128/devtools/browser/820839f4-9473-43f0-9343-e8b45de4b1ef
+              <![CDATA[Unable to establish websocket connection to http://localhost:60597/devtools/browser/6084a877-4b8f-4ef2-aec2-c43ac78336bc
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:53128/devtools/browser/820839f4-9473-43f0-9343-e8b45de4b1ef
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60597/devtools/browser/6084a877-4b8f-4ef2-aec2-c43ac78336bc
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver
@@ -139,16 +139,16 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="jbk_launch()[pri:0, instance:com.Test.jbk_login_test@6cd28fa7]" started-at="2023-03-14T11:34:29 IST" name="jbk_launch" finished-at="2023-03-14T11:34:29 IST" duration-ms="0" status="SKIP">
+        <test-method signature="jbk_launch()[pri:0, instance:com.Test.jbk_login_test@6cd28fa7]" started-at="2023-03-14T12:02:14 IST" name="jbk_launch" finished-at="2023-03-14T12:02:14 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
             <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:53128/devtools/browser/820839f4-9473-43f0-9343-e8b45de4b1ef
+              <![CDATA[Unable to establish websocket connection to http://localhost:60597/devtools/browser/6084a877-4b8f-4ef2-aec2-c43ac78336bc
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:53128/devtools/browser/820839f4-9473-43f0-9343-e8b45de4b1ef
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60597/devtools/browser/6084a877-4b8f-4ef2-aec2-c43ac78336bc
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver
@@ -205,28 +205,28 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jbk_launch -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Test.jbk_login_test@6cd28fa7]" started-at="2023-03-14T11:34:29 IST" name="endTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678773869998" status="SKIP">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Test.jbk_login_test@6cd28fa7]" started-at="2023-03-14T12:02:14 IST" name="endTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678775534352" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.Test.jbk_login_test -->
     </test> <!-- Test02 -->
-    <test started-at="2023-03-14T11:34:30 IST" name="Test03" finished-at="2023-03-14T11:34:32 IST" duration-ms="2143">
+    <test started-at="2023-03-14T12:02:14 IST" name="Test03" finished-at="2023-03-14T12:02:17 IST" duration-ms="2717">
       <class name="com.Test.extent_report">
-        <test-method is-config="true" signature="startTest()[pri:0, instance:com.Test.extent_report@e15b7e8]" started-at="2023-03-14T11:34:30 IST" name="startTest" finished-at="2023-03-14T11:34:30 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.Test.extent_report@e15b7e8]" started-at="2023-03-14T12:02:14 IST" name="startTest" finished-at="2023-03-14T12:02:14 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="extentReportsDemo()[pri:0, instance:com.Test.extent_report@e15b7e8]" started-at="2023-03-14T11:34:30 IST" name="extentReportsDemo" finished-at="2023-03-14T11:34:31 IST" duration-ms="1554" status="FAIL">
+        <test-method signature="extentReportsDemo()[pri:0, instance:com.Test.extent_report@e15b7e8]" started-at="2023-03-14T12:02:14 IST" name="extentReportsDemo" finished-at="2023-03-14T12:02:15 IST" duration-ms="1532" status="FAIL">
           <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
             <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:53143/devtools/browser/bfd043b9-57ab-492f-84e7-513a89118ba1
+              <![CDATA[Unable to establish websocket connection to http://localhost:60612/devtools/browser/9335d38d-a2b7-4a75-8a01-2d60d78b3cac
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:53143/devtools/browser/bfd043b9-57ab-492f-84e7-513a89118ba1
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60612/devtools/browser/9335d38d-a2b7-4a75-8a01-2d60d78b3cac
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver
@@ -278,7 +278,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportsDemo -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Test.extent_report@e15b7e8]" started-at="2023-03-14T11:34:31 IST" name="endTest" finished-at="2023-03-14T11:34:32 IST" duration-ms="573" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Test.extent_report@e15b7e8]" started-at="2023-03-14T12:02:15 IST" name="endTest" finished-at="2023-03-14T12:02:17 IST" duration-ms="1162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

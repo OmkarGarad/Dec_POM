@@ -2,6 +2,7 @@ package data_provider;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 
 
@@ -16,9 +17,10 @@ public class TestBase {
 	
 	
 	public static WebDriver jbk_lauch_url() {
-		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
 		System.setProperty("webdriver.chrome.driver",cf.getDriverPath());
-		 driver = new ChromeDriver();
+		 driver = new ChromeDriver(options);
 		 driver.get("file:///C:/Users/Shree/Desktop/TestScript/Offline%20Website/Offline%20Website/index.html");
 		 driver.manage().window().maximize();
 		return driver;

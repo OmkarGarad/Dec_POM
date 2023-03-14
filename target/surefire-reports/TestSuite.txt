@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 10.07 s <<< FAILURE! - in TestSuite
-com.Test.amazon_login_test.amzon_launch  Time elapsed: 4.368 s  <<< FAILURE!
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 10.286 s <<< FAILURE! - in TestSuite
+com.Test.amazon_login_test.amzon_launch  Time elapsed: 3.993 s  <<< FAILURE!
 org.openqa.selenium.remote.http.ConnectionFailedException: 
-Unable to establish websocket connection to http://localhost:53113/devtools/browser/56729f60-c717-4c99-b396-10ef36f17c10
+Unable to establish websocket connection to http://localhost:60582/devtools/browser/02a62530-b6fa-41f3-8f60-749896b236f6
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver
@@ -52,9 +52,9 @@ Driver info: driver.version: ChromeDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-com.Test.jbk_login_test.startTest  Time elapsed: 6.345 s  <<< FAILURE!
+com.Test.jbk_login_test.startTest  Time elapsed: 6.014 s  <<< FAILURE!
 org.openqa.selenium.remote.http.ConnectionFailedException: 
-Unable to establish websocket connection to http://localhost:53128/devtools/browser/820839f4-9473-43f0-9343-e8b45de4b1ef
+Unable to establish websocket connection to http://localhost:60597/devtools/browser/6084a877-4b8f-4ef2-aec2-c43ac78336bc
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver
@@ -106,9 +106,9 @@ Driver info: driver.version: ChromeDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-com.Test.extent_report.extentReportsDemo  Time elapsed: 1.562 s  <<< FAILURE!
+com.Test.extent_report.extentReportsDemo  Time elapsed: 1.542 s  <<< FAILURE!
 org.openqa.selenium.remote.http.ConnectionFailedException: 
-Unable to establish websocket connection to http://localhost:53143/devtools/browser/bfd043b9-57ab-492f-84e7-513a89118ba1
+Unable to establish websocket connection to http://localhost:60612/devtools/browser/9335d38d-a2b7-4a75-8a01-2d60d78b3cac
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver
